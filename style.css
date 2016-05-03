@@ -1,0 +1,31 @@
+#calender{
+	background-color: #43A3E8;
+	width: 240px;
+}
+#cal_top{
+	background-color: #c7c7c7;
+	padding: 10px 5px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+#cal_body {
+	padding: 15px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-content: stretch;
+	align-content: stretch;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+#cal_body > span{
+	color: white;
+	text-align: right;
+	padding: 5px;
+	width: 20px;
+	height: 20px;
+}
+.selected {
+	background-color: #5C2813;
+}
